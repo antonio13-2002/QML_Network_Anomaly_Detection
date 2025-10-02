@@ -4,7 +4,8 @@ QML model implementation for network packet anomaly detection. In this project I
 2. Scaled scenario: a QSVM model is used over a scaled up dataset, this time with 10 features.
 3. Real scenario: a QVC model is used to perform anomaly detection over a real dataset of data packets, to find realistic attack patterns.
 The last scenario is implemented using the **UNSW_NB15_testing-set.csv** and the **UNSW_NB15_training-set.csv** files, which are datasets implemented by the Australian Centre for Cybersecurity, and they consists of a total of 49 features.
-The final goal is to find analyze network packets, either fake or real ones, to find some attack pattern for a trivial Intrusion Detection System.
+
+The final goal is to analyze network packets, either fake or real ones, to find some attack pattern for a trivial Intrusion Detection System.
 ## Structure of the project
 - **dataset.py**: file with functions used to generate different type of sample dataset for our experiments.
 - **my_qml_model**: jupyter notebook with several experiments with different QML models in different scenarios.
